@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title> 简明Markdown教程 | 小奶猫的Blog</title>
+<title>Markdown基本语法   | 小奶猫的Blog</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,12 +18,25 @@
 
 
 
-    <meta name="description" content="
+    <meta name="description" content="文本
 
-Markdown的介绍
-Markdown基本语法
+一个#是一级标题，两个##是二级标题，也可以用===和----（数量不重要）。
 
-..." />
+
+##第二级标题
+
+###第三级级标题
+
+......
+
+最多到第七级标题
+
+###### 第七级标题
+第一级标题
+====
+
+第二级
+-------..." />
     <meta name="keywords" content="Markdown" />
   </head>
   <body>
@@ -95,15 +108,81 @@ Markdown基本语法
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title"> 简明Markdown教程</h2>
+            <h2 class="post-title">Markdown基本语法  </h2>
             <div class="post-date">2020-04-20</div>
             
             <div class="post-content" v-pre>
-              <figure data-type="image" tabindex="1"><img src="https://dfgm.github.io/post-images/1587353983644.jpg" alt="" loading="lazy"></figure>
-<ol>
-<li>Markdown的介绍</li>
-<li>Markdown基本语法</li>
+              <h1 id="文本">文本</h1>
+<ul>
+<li>一个#是一级标题，两个##是二级标题，也可以用===和----（数量不重要）。</li>
+</ul>
+<pre><code class="language-#">
+##第二级标题
+
+###第三级级标题
+
+......
+
+最多到第七级标题
+
+###### 第七级标题
+第一级标题
+====
+
+第二级
+--------
+</code></pre>
+<p>效果如下<br>
+<img src="https://dfgm.github.io/post-images/1587373069892.png" alt="" loading="lazy"></p>
+<h1 id="段落">段落</h1>
+<h2 id="段落格式">段落格式</h2>
+<ul>
+<li>可以直接写出来<br>
+插图（）</li>
+</ul>
+<h2 id="字体">字体</h2>
+<ul>
+<li>支持以下几种字体</li>
+</ul>
+<p>*斜体*        →   <em>斜体</em><br>
+**粗体**  → <strong>粗体</strong></p>
+<h2 id="引用">引用</h2>
+<p>使用&gt;</p>
+<p>&gt; 引用某人的话</p>
+<blockquote>
+<p>引用某人的话</p>
+</blockquote>
+<h2 id="注释">注释</h2>
+<p>使用[^]: 要写两遍<br>
+<code>Hello[^Hello] [^Hello]:你好</code><br>
+Hello<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
+<h2 id="列表">列表</h2>
+<p>直接用数字+.。或+ ，-<br>
+1.<br>
+2.<br>
++ 列表</p>
+<ul>
+<li>列表</li>
+</ul>
+<h1 id="代码">代码</h1>
+<p>使用tap键或四个空格<br>
+print(&quot;&quot;Hello,word.)</p>
+<h1 id="链接">链接</h1>
+<p>只要在方块括号后面紧接着圆括号并插入网址链接即可，如果你还想要加上链接的 title 文字，只要在网址后面，用双引号把 title 文字包起来即可。格式[名称](网址)</p>
+<p>也可以用尖括号&lt;网址&gt;</p>
+<h1 id="反斜杠">反斜杠</h1>
+<p>Markdown中\和其他编程语言中的\一样可以转义<br>
+比如你想用*号就这样写<br>
+3 \*2 = 6</p>
+<p>#Markdown高阶<br>
+其实Markdown的出现是受HTML的启发所以一些高级功能可通过HTML代码实现，在此不赘述这是一篇基础教程</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>你好 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
 </ol>
+</section>
 
             </div>
             
@@ -115,6 +194,15 @@ Markdown基本语法
                 
               </div>
             
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://dfgm.github.io/post/markdown-jie-shao/">
+                  <h3 class="post-title">
+                    Markdown介绍
+                  </h3>
+                </a>
+              </div>
             
 
             
