@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dfgm.github.io</id>
     <title>小奶猫的Blog</title>
-    <updated>2020-04-20T01:03:01.905Z</updated>
+    <updated>2020-04-20T03:09:41.387Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dfgm.github.io"/>
     <link rel="self" href="https://dfgm.github.io/atom.xml"/>
@@ -10,4 +10,43 @@
     <logo>https://dfgm.github.io/images/avatar.png</logo>
     <icon>https://dfgm.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 小奶猫的Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Markdown介绍]]></title>
+        <id>https://dfgm.github.io/post/markdown-jie-shao/</id>
+        <link href="https://dfgm.github.io/post/markdown-jie-shao/">
+        </link>
+        <updated>2020-04-20T02:43:32.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="基本">基本</h1>
+<ul>
+<li>Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。它是一种轻量级标记语言，语法简洁明了，易于学习，可以实现文章快速排版，只需敲打键盘，当你结束文章的时候一篇美观的文章就有了。因此Markdown常用于撰写电子书和博客<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。</li>
+</ul>
+<p>​       Markdown还能进行格式转换变为HTML,PDF等格式的文件。</p>
+<h1 id="编辑器">编辑器</h1>
+<ul>
+<li>编辑器种类较多比如WordPress,个人推荐Typora。原因有两点一是即时渲染，二是漂亮。如下图。<br>
+<img src="https://dfgm.github.io/post-images/1587350988036.png" alt="" loading="lazy"><br>
+<strong>注意Markdown的语法在不同编辑器上略有不同，依具体情况选择。</strong></li>
+</ul>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>就像此篇文章 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ 简明Markdown教程]]></title>
+        <id>https://dfgm.github.io/post/jian-ming-markdown-jiao-cheng/</id>
+        <link href="https://dfgm.github.io/post/jian-ming-markdown-jiao-cheng/">
+        </link>
+        <updated>2020-04-20T02:42:15.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>Markdown的介绍</li>
+<li>Markdown基本语法</li>
+<li>Markdown高阶技巧</li>
+</ol>
+]]></content>
+    </entry>
 </feed>
