@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dfgm.github.io</id>
     <title>小奶猫的Blog</title>
-    <updated>2020-04-20T03:19:10.502Z</updated>
+    <updated>2020-04-20T03:49:57.391Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dfgm.github.io"/>
     <link rel="self" href="https://dfgm.github.io/atom.xml"/>
@@ -18,9 +18,13 @@
         <updated>2020-04-20T02:43:32.000Z</updated>
         <content type="html"><![CDATA[<h1 id="基本">基本</h1>
 <ul>
-<li>Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。它是一种轻量级标记语言，语法简洁明了，易于学习，可以实现文章快速排版，只需敲打键盘，当你结束文章的时候一篇美观的文章就有了。因此Markdown常用于撰写电子书和博客<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。</li>
+<li>
+<p>Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。它是一种轻量级标记语言，语法简洁明了，易于学习，可以实现文章快速排版，只需敲打键盘，当你结束文章的时候一篇美观的文章就有了。因此Markdown常用于撰写电子书和博客<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。</p>
+</li>
+<li>
+<p>Markdown还能进行格式转换变为HTML,PDF等格式的文件。</p>
+</li>
 </ul>
-<p>​       Markdown还能进行格式转换变为HTML,PDF等格式的文件。</p>
 <h1 id="编辑器">编辑器</h1>
 <ul>
 <li>编辑器种类较多比如WordPress,个人推荐Typora。原因有两点一是即时渲染，二是漂亮。如下图。<br>
@@ -42,7 +46,8 @@
         <link href="https://dfgm.github.io/post/jian-ming-markdown-jiao-cheng/">
         </link>
         <updated>2020-04-20T02:42:15.000Z</updated>
-        <content type="html"><![CDATA[<ol>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://dfgm.github.io/post-images/1587353983644.jpg" alt="" loading="lazy"></figure>
+<ol>
 <li>Markdown的介绍</li>
 <li>Markdown基本语法</li>
 <li>Markdown高阶技巧</li>
